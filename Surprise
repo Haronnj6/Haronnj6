@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Surprise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #surprise {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border: 5px solid #bcc;
+            border-radius: 5px;
+            background-color: #f9f9;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey Mary Surprise!</h1>
+    <button onclick="showSurprise()">Click me for a surprise!</button>
+    <div id="surprise">🎉You're so cute, not just because of your looks, but your personality too. The things you say are adorable, your voice is sweet, your laugh is infectious, and your smile brightens my day. You're absolutely perfect, I love you.🎊  🎈</div>
+
+    <script>
+        function showSurprise() {
+            var surpriseElement = document.getElementById("surprise");
+            surpriseElement.style.display = "block";
+        }
+    </script>
+</body>
+</html>
+
